@@ -4,7 +4,7 @@ on: workflow_dispatch
 
 jobs:
   test:
-    runs-on: shangskr-latest
+    runs-on: ubuntu-latest
     name: Build Alist
     steps:
     - uses: actions/checkout@v4
